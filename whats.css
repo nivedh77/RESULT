@@ -1,0 +1,230 @@
+body 
+{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin: 0;
+    height: 100vh;
+    background-color: aliceblue
+}
+
+.rect
+{
+width: 300px;
+height: 400px;
+background-color: rgba(97, 64, 252);
+border-radius: 20px;
+padding: 25px;
+display: flex;
+justify-content: space-around;
+align-items: center;
+flex-direction: column;
+
+color: rgba(182, 173, 245);
+text-align: center;
+}
+
+
+.rectangle
+{
+    width: 300px;
+    height: 400px;
+    background-color: white;
+    border-radius: 20px;
+    padding: 25px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+       
+    
+}
+
+.parentrect
+{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.circle
+{
+    width: 175px;
+    height: 175px;
+    border-radius: 50%;
+    border: 3px;
+    background-color: rgba(74, 38, 208);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+
+    
+}
+.reaction
+{
+    border-radius: 15px;
+    background-color: rgba(255, 246, 247);
+    width: 250px;
+    padding: 15px;
+    color: rgb(236, 127, 133);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+    
+  
+
+}
+
+.memory{
+    border-radius: 15px;
+    background-color: rgba(255, 250, 244);
+    width: 250px;
+    padding: 15px;
+    color:rgb(238, 169, 57);
+    display: flex;
+     justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+    
+
+}
+.verbal{
+    border-radius: 15px;
+    background-color: rgba(242, 253, 249);
+    width: 250px;
+    padding: 15px;
+    color: rgba(144, 222, 209);
+    display: flex;
+     justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+    
+
+
+    
+
+}
+.visual{
+    border-radius: 15px;
+    background-color: rgba(244, 244, 254);
+    width: 250px;
+    padding: 15px;
+    color: rgba(141, 147, 214);
+    font-weight: bold;
+    display: flex;
+     justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+    
+
+}
+
+
+   
+    
+
+
+.continue{
+    display: flex;
+    justify-content: center;
+    
+    background-color: rgba(48, 59, 89);
+    border-radius: 15px;
+    width: 250px;
+    padding: 15px;
+    color: aliceblue;
+    align-items: center;
+}
+
+.some{
+    height: 370px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+   
+    
+}
+@font-face {
+    font-family: 'HankenGrotesk';
+    src: url(HankenGrotesk-Bold.ttf)format('truetype');
+}
+body 
+
+{
+    font-family: HankenGrotesk;
+
+}
+.number{
+    display: flex;
+    font-size: 75px;
+    color: aliceblue;
+}
+.hun{
+    display: flex;
+    color: rgb(178, 176, 176);
+
+}
+.great{
+    font-size: 30px;
+    color:aliceblue;
+}
+
+.left{
+    display:flex;
+    align-items: center;
+    
+
+}
+.box {
+    width: 250px;
+    padding: 15px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+    
+}
+.left {
+    display: flex;
+    align-items: center;
+    
+}
+.score {
+    color: rgb(80, 80, 80);
+}
+.result{
+    font-size: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
