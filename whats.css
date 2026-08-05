@@ -77,6 +77,11 @@ text-align: center;
 
 }
 
+.reaction:hover {
+    color: red;
+    transform: translateY(5px);
+}
+
 .memory{
     border-radius: 15px;
     background-color: rgba(255, 250, 244);
@@ -87,9 +92,16 @@ text-align: center;
      justify-content: space-between;
     align-items: center;
     margin-bottom: 15px;
-    
+    transition: transform 0.3s;
 
 }
+
+.memory:hover {
+    color: yellowgreen;
+    transform: translateY(5px);
+}
+
+
 .verbal{
     border-radius: 15px;
     background-color: rgba(242, 253, 249);
@@ -100,12 +112,15 @@ text-align: center;
      justify-content: space-between;
     align-items: center;
     margin-bottom: 15px;
-    
+}
 
+.verbal:hover{
 
-    
+    color: green;
+    transform: translateY(5px);
 
 }
+    
 .visual{
     border-radius: 15px;
     background-color: rgba(244, 244, 254);
@@ -117,8 +132,10 @@ text-align: center;
      justify-content: space-between;
     align-items: center;
     margin-bottom: 15px;
-    
-
+}
+.visual:hover{
+    color: blue;
+    transform: translateY(5px);
 }
 
 
@@ -136,6 +153,13 @@ text-align: center;
     padding: 15px;
     color: aliceblue;
     align-items: center;
+    transition: background-color 0.3s ;
+}
+
+.continue:hover {
+    cursor: pointer;
+    background-color: rgba(48, 59, 89, 0.862);
+
 }
 
 .some{
@@ -146,6 +170,9 @@ text-align: center;
    
     
 }
+
+
+
 @font-face {
     font-family: 'HankenGrotesk';
     src: url(HankenGrotesk-Bold.ttf)format('truetype');
